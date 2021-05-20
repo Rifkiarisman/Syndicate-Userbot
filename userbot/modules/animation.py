@@ -66,33 +66,33 @@ async def _(event):
             await event.edit(animation_chars[i % 32])
 
 
-@register(outgoing=True, pattern=r"^\.sayang$")
+@register(outgoing=True, pattern=r"^\.syndicate$")
 async def koc(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("I LOVEE YOUUU 💕")
-        await e.edit("💝💘💓💗")
-        await e.edit("💞💕💗💘")
-        await e.edit("💝💘💓💗")
-        await e.edit("💞💕💗💘")
-        await e.edit("💘💞💗💕")
-        await e.edit("💘💞💕💗")
-        await e.edit("SAYANG KAMU 💝💖💘")
-        await e.edit("💝💘💓💗")
-        await e.edit("💞💕💗💘")
-        await e.edit("💘💞💕💗")
-        await e.edit("SAYANG")
-        await e.edit("KAMU")
-        await e.edit("SELAMANYA 💕")
-        await e.edit("💘💘💘💘")
-        await e.edit("SAYANG")
-        await e.edit("KAMU")
-        await e.edit("SAYANG")
-        await e.edit("KAMU")
-        await e.edit("I LOVE YOUUUU")
-        await e.edit("MY BABY")
-        await e.edit("💕💞💘💝")
-        await e.edit("💘💕💞💝")
-        await e.edit("SAYANG KAMU💞")
+        await e.edit("🏴‍☠️WE ARE SYNDICATE🏴‍☠️")
+        await e.edit("S Y N D I C A T E")
+        await e.edit("E S Y N D I C A T")
+        await e.edit("T E S Y N D I C A")
+        await e.edit("A T E S Y N D I C")
+        await e.edit("C A T E S Y N D I")
+        await e.edit("I C A T E S Y N D")
+        await e.edit("D I C A T E S Y N")
+        await e.edit("N D I C A T E S Y")
+        await e.edit("Y N D I C A T E S")
+        await e.edit("S Y N D I C A T E")
+        await e.edit("SYNDICATE NIH BOSS")
+        await e.edit("SUDAH MENDARAH DAGING")
+        await e.edit("SELAMANYA")
+        await e.edit("HEHEHEHE")
+        await e.edit("KENAPA? GA SUKA?")
+        await e.edit("BODOAMAT GA PEDULI")
+        await e.edit("IRI? BILANG BABU")
+        await e.edit("AHAAYYYY")
+        await e.edit("PAPALE PAPALE PALE PA PALE PALE")
+        await e.edit("UDAH LAH YA")
+        await e.edit("CAPE GESSSS")
+        await e.edit("JANGAN LUPA BERSYUKUR UNTUK HARI INI")
+        await e.edit("TERIMA KASIH")
 
 
 @register(outgoing=True, pattern=r"^\.dino(?: |$)(.*)")
@@ -421,9 +421,9 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`Ketika Waktumu Habis`")
     sleep(1)
-    await typew.edit("`Tambah Aja 5000`")
+    await typew.edit("`Tambah Aja 5000 Dapet 2 jam`")
     sleep(1)
-    await typew.edit("`Bercanda`")
+    await typew.edit("`Hahaha Bercanda Gess`")
 
 
 # Create by myself @localheart
@@ -688,12 +688,12 @@ async def typewriter(typew):
     )
 
 
-@register(outgoing=True, pattern=r"^\.babi(?: |$)(.*)")
+@register(outgoing=True, pattern=r"^\.tuni(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit(
         "┈┈┏━╮╭━┓┈╭━━━━╮\n"
-        "┈┈┃┏┗┛┓┃╭┫Ngok ┃\n"
+        "┈┈┃┏┗┛┓┃╭┫tuni ┃\n"
         "┈┈╰┓▋▋┏╯╯╰━━━━╯\n"
         "┈╭━┻╮╲┗━━━━╮╭╮┈\n"
         "┈┃▎▎┃╲╲╲╲╲╲┣━╯┈\n"
@@ -703,13 +703,13 @@ async def typewriter(typew):
     )
 
 
-@register(outgoing=True, pattern=r"^\.ajg(?: |$)(.*)")
+@register(outgoing=True, pattern=r"^\.ayya(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit(
         "╥━━━━━━━━╭━━╮━━┳\n"
         "╢╭╮╭━━━━━┫┃▋▋━▅┣\n"
-        "╢┃╰┫┈┈┈┈┈┃┃┈┈╰┫┣\n"
+        "╢┃╰┫┈┈ayya┈┃┃┈┈╰┫┣\n"
         "╢╰━┫┈┈┈┈┈╰╯╰┳━╯┣\n"
         "╢┊┊┃┏┳┳━━┓┏┳┫┊┊┣\n"
         "╨━━┗┛┗┛━━┗┛┗┛━━┻\n"
