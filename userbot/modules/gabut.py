@@ -1,5 +1,5 @@
 # Coded by Koala
-# Recode by @mrismanaziz
+# Recode by @suppnigga
 
 import time
 from datetime import datetime
@@ -85,7 +85,7 @@ async def pingme(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**NGENTOT!! 🐨**\n**KAMPANG** : %sms\n**Bot Uptime** : {uptime}🕛" % (duration)
+        f"**WOI!! 🏴‍☠️**\n**SYNDICATE NIH BOSS** : %sms\n**Bot Uptime** : {uptime}🕛" % (duration)
     )
 
 
@@ -107,7 +107,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit(f"**JAKA SEMBUNG BAWA GOLOK**")
     sleep(3)
-    await typew.edit("**NIMBRUNG GOBLOKK!!!🔥**")
+    await typew.edit("**MAKANYA NIMBRUNG GOBLOKK!!!🔥**")
 
 
 # Owner @Si_Dian
@@ -117,7 +117,7 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit(f"**Hallo KIMAAKK SAYA {DEFAULTUSER}**")
+    await typew.edit(f"**Hallo KIMAK SAYA {DEFAULTUSER}**")
     sleep(2)
     await typew.edit("**LU SEMUA NGENTOT 🔥**")
 
@@ -150,8 +150,8 @@ async def typewriter(typew):
         f"51 Menit - 0%**"
         "\n ◐━─━─━─━─━──━─━─━─━─━◐\n"
         "-> `Sisa Dyno Bulan Ini`:\n"
-        f" ❉ **9989 Jam - 9948 Menit "
-        f"- 99%**\n"
+        f" ❉ **10000 Jam - 10000 Menit "
+        f"- 100%**\n"
         "╰━━━━━━━━━━━━━━━━━━━━╯"
     )
 
