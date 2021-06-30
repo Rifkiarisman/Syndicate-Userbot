@@ -24,7 +24,7 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit(f"**Haii Salken Saya {DEFAULTUSER}**")
+    await typew.edit(f"**Haii Salken Saya Kyy**")
     sleep(2)
     await typew.edit("**Assalamualaikum...**")
 
@@ -34,6 +34,21 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**Wa'alaikumsalam**")
 
+@register(outgoing=True, pattern="^.kyy(?: |$)(.*)")
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit("**Haii Salken Saya Kyy**")
+    sleep(2)
+    await typew.edit("**Umur 19 tahun**")
+    sleep(3)
+    await typew.edit("**Askot batam**")
+    sleep(4)
+    await typew.edit("**Mutualan?**")
+    sleep(5)
+    await typew.edit("**Mutualan hati sih biasanya"**)
+    sleep(6)
+    await typew.edit("**Pc Aja @sokapgblg nanti dibales kok**")
 
 CMD_HELP.update(
     {
